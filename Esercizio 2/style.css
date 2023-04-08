@@ -1,0 +1,36 @@
+*{
+    margin: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dati, .figura {
+    margin-bottom: 15px;
+}
+.dati, .risultati {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottoni input{
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    color: black;
+    width: 110px;
+    margin: 5px;
+    font-size: 15px;
+}
+input[type="text"] {
+    border: 1px black solid;
+    color: black;
+    margin: 5px;
+    font-size: 15px;
+}

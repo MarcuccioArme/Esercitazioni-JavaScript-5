@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Esercizio 2</title>
+</head>
+<body>
+
+    <h1 style="color: red;">Creazione di un rettangolo e calcolo di area e perimetro</h1>
+
+    <div class="dati">
+        <form name="Form">
+            Base: <input type="number" name="base" id="base" min="0" max="1000" placeholder="MAX: 1000"> <br>
+            Altezza: <input type="number" name="base" id="altezza" min="0" max="1000" placeholder="MAX: 1000">
+
+            <div class="bottoni">
+                <input type="button" value="Crea" onclick="Crea()">
+                <input type="reset" value="Cancella" name="Reset" onclick="Cancella()">
+            </div>
+        </form>
+    </div>
+
+    <div class="figura">
+        <canvas id="myCanvas">
+            <!-- \_(-.-)_/ -->
+        </canvas>
+
+        <div class="bottoni">
+            <input type="button" value="Calcola area" name="areaBtn" id="areaBtn" onclick="CalcolaArea()">
+            <input type="button" value="Calcola perimetro" name="perimetroBtn" id="perimetroBtn" onclick="CalcolaPerimetro()">
+        </div>
+    </div>
+
+    <div class="risultati">
+        Area: <input type="text" id="area" disabled> <br>
+        Perimetro: <input type="text" id="perimetro" disabled>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+*{
+    margin: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottoni input{
+    font-size: 25px;
+    margin-right: 15px;
+}

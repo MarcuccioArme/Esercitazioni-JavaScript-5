@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Esercizio 1</title>
+
+</head>
+<body>
+
+    <h1 style="color: red;">Crea un'istogramma</h1>
+    
+    <div class="modulo">
+        <form name="Form">
+            Valore 1: <input type="number" name="valore1" id="val1" min="0" max="1000" placeholder="MAX: 1000"> 
+            colore: 
+            <select id="colore1">
+                <option value="red">Rosso</option>
+                <option value="blue">Blu</option>
+                <option value="green">Verde</option>
+                <option value="orange">Arancione</option>
+                <option value="purple">Viola</option>
+            </select> <br>
+
+            Valore 2: <input type="number" name="valore2" id="val2" min="0" max="1000" placeholder="MAX: 1000"> 
+            colore: 
+            <select id="colore2">
+                <option value="red">Rosso</option>
+                <option value="blue">Blu</option>
+                <option value="green">Verde</option>
+                <option value="orange">Arancione</option>
+                <option value="purple">Viola</option>
+            </select> <br>
+
+            Valore 3: <input type="number" name="valore3" id="val3" min="0" max="1000" placeholder="MAX: 1000"> 
+            colore: 
+            <select id="colore3">
+                <option value="red">Rosso</option>
+                <option value="blue">Blu</option>
+                <option value="green">Verde</option>
+                <option value="orange">Arancione</option>
+                <option value="purple">Viola</option>
+            </select>
+
+            <div class="bottoni">
+                <input type="button" value="Crea" onclick="Crea()">
+                <input type="reset" value="Cancella" name="Reset" onclick="Cancella()">
+            </div>
+        </form>
+    </div>
+
+    <div class="istogramma">
+        <canvas id="myCanvas">
+            <!-- \_(-.-)_/ -->
+        </canvas>
+    </div>
+
+</body>
+</html>
